@@ -1,4 +1,4 @@
-# Bitcore v0.15
+# Bitcore v0.13
 
 ## Principles
 
@@ -37,7 +37,7 @@ Some functionality is implemented as a module that can be installed separately:
 
 * [Payment Protocol Support](https://github.com/bitpay/bitcore-payment-protocol)
 * [Peer to Peer Networking](https://github.com/bitpay/bitcore-p2p)
-* [Bitcoin Core JSON-RPC](https://github.com/bitpay/safecoind-rpc)
+* [Bitcoin Core JSON-RPC](https://github.com/bitpay/bitcoind-rpc)
 * [Payment Channels](https://github.com/bitpay/bitcore-channel)
 * [Mnemonics](https://github.com/bitpay/bitcore-mnemonic)
 * [Elliptical Curve Integrated Encryption Scheme](https://github.com/bitpay/bitcore-ecies)

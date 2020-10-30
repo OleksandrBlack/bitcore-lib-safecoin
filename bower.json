@@ -1,12 +1,11 @@
 {
   "name": "bitcore-lib-safecoin",
   "main": "./bitcore-lib-safecoin.min.js",
-  "version": "0.15.19",
-  "homepage": "http://safecoin.org",
+  "version": "0.13.19",
+  "homepage": "http://bitcore.io",
   "authors": [
     "BitPay, Inc.",
-    "Jack Grigg",
-    "Alexandr Shatovskiy"
+    "Jack Grigg"
   ],
   "description": "A pure, powerful core for your safecoin project.",
   "moduleType": [
