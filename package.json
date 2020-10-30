@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-lib-zelcash",
-  "version": "0.15.0",
-  "description": "A pure and powerful JavaScript ZelCash library.",
-  "author": "BitPay <dev@bitpay.com>",
+  "name": "bitcore-lib-safecoin",
+  "version": "0.16.0",
+  "description": "A pure and powerful JavaScript Safecoin library.",
+  "author": "BitPay <dev@bitpay.com> Safecoin mod: Safecoin Team",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -60,24 +60,29 @@
       "email": "jack@z.cash"
     },
     {
-      "name": "Larry Ludlow",
-      "email": "larry@myhush.org"
+      "github": "LitecoinZ",
+      "community": "LitecoinZ"
     },
     {
-      "name": "TheTrunk",
-      "email": "tadeas.kmenta@zel.cash"
+      "name": "Jeffrey Galloway",
+      "github": "Fair-Exchange",
+      "email": "safecoin@safecoin.org",
+      "community": "Safecoin"
     },
     {
-      "name": "Simon Liu",
-      "email": "simon@z.cash"
+      "github": "OleksandrBlack",
+      "community": "Safecoin"
     },
     {
-      "name": "Ian Munoz",
-      "email": "ian.org@gmail.com"
+      "name": "Alexandr Shatovsky",
+      "github": "EternityTula",
+      "email": "eternity@safecoin.org",
+      "community": "Safecoin"
     }
   ],
   "keywords": [
-    "zelcash",
+    "bitcoin",
+    "safecoin",
     "transaction",
     "address",
     "p2p",
@@ -94,25 +99,28 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zelcash/bitcore-lib-zelcash.git"
+    "url": "https://github.com/Fair-Exchange/bitcore-lib-safecoin.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bn.js": "=2.0.4",
-    "bs58": "=2.0.0",
-    "buffer-compare": "=1.0.0",
-    "elliptic": "=3.0.3",
+    "blake2b": "git+https://github.com/BitGo/blake2b.git#6268e6dd678661e0acc4359e9171b97eb1ebf8ac",
+    "bn.js": "=4.11.8",
+    "bs58": "=4.0.1",
+    "buffer-compare": "=1.1.1",
+    "elliptic": "=6.4.0",
     "inherits": "=2.0.1",
-    "lodash": "=3.10.1"
+    "lodash": "=4.17.11"
   },
+  "deprecated": false,
+  "description": "A pure and powerful JavaScript Bitcoin library.",
   "devDependencies": {
-    "bitcore-build-zelcash": "git://github.com/zelcash/bitcore-build-zelcash#master",
-    "brfs": "^1.2.0",
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "sinon": "^1.13.0"
+    "bitcore-build-safecoin": "git+https://github.com/Fair-Exchange/bitcore-build-safecoin",
+    "brfs": "^2.0.1",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.0",
+    "sinon": "^7.1.1"
   },
   "license": "MIT"
 }

@@ -1,8 +1,8 @@
-# Bitcoin Address
-Represents a bitcoin address. Addresses are the most popular way to make bitcoin transactions. See [the official Bitcoin Wiki](https://en.bitcoin.it/wiki/Address) for technical background information.
+# Safecoin Address
+Represents a safecoin address. Addresses are the most popular way to make safecoin transactions. See [the official Bitcoin Wiki](https://en.bitcoin.it/wiki/Address) for technical background information.
 
 ## Instantiate an Address
-To be able to receive bitcoins an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
+To be able to receive safecoins an address is needed, but in order to spend them a private key is necessary. Please take a look at the [`PrivateKey`](privatekey.md) docs for more information about exporting and saving a key.  
 
 ```javascript
 var privateKey = new PrivateKey();
@@ -13,7 +13,7 @@ You can also instantiate an Address from a String, [PublicKey](publickey.md), or
 
 ```javascript
 // from a string
-var address = Address.fromString('mwkXG8NnB2snbqWTcpNiK6qqGHm1LebHDc');
+var address = Address.fromString('RijJtMrkJBEw4V7M8nQZwPUb8rXFgiiXRm');
 
 // a default network address from a public key
 var publicKey = PublicKey(privateKey);

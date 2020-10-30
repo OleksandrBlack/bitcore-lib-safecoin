@@ -6,15 +6,15 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-zelcash found. ' +
-      'Please make sure to require bitcore-lib-zelcash and check that submodules do' +
-      ' not also include their own bitcore-lib-zelcash dependency.';
+    var message = 'More than one instance of bitcore-lib-safecoin found. ' +
+      'Please make sure to require bitcore-lib-safecoin and check that submodules do' +
+      ' not also include their own bitcore-lib-safecoin dependency.';
     // TODO: put this back if we start versioning again
     //throw new Error(message);
   }
 };
-bitcore.versionGuard(global._bitcore);
-global._bitcore = bitcore.version;
+bitcore.versionGuard(global._bitcoreSafe);
+global._bitcoreSafe = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
@@ -49,6 +49,7 @@ bitcore.MerkleBlock = require('./lib/block/merkleblock');
 bitcore.BlockHeader = require('./lib/block/blockheader');
 bitcore.HDPrivateKey = require('./lib/hdprivatekey.js');
 bitcore.HDPublicKey = require('./lib/hdpublickey.js');
+bitcore.Message = require('./lib/message');
 bitcore.Networks = require('./lib/networks');
 bitcore.Opcode = require('./lib/opcode');
 bitcore.PrivateKey = require('./lib/privatekey');
@@ -67,5 +68,4 @@ bitcore.deps.elliptic = require('elliptic');
 bitcore.deps._ = require('lodash');
 
 // Internal usage, exposed for testing/advanced tweaking
-bitcore._HDKeyCache = require('./lib/hdkeycache');
 bitcore.Transaction.sighash = require('./lib/transaction/sighash');

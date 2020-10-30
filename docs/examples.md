@@ -40,17 +40,17 @@ var transaction = new bitcore.Transaction()
   .sign(privateKey);
 ```
 
-## Sign a Bitcoin message
+## Sign a Safecoin message
 ```javascript
 var Message = require('bitcore-message');
 
-var privateKey = new bitcore.PrivateKey('L23PpjkBQqpAF4vbMHNfTZAb3KFPBSawQ7KinFTzz7dxq6TZX8UA');
+var privateKey = new bitcore.PrivateKey('V4KbQ8uzsWm6rWVey1iEa1pRRSHuVnehXEEGT8A9j4h985Y2fxtZ');
 var message = new Message('This is an example of a signed message.');
 
 var signature = message.sign(privateKey);
 ```
 
-## Verify a Bitcoin message
+## Verify a Safecoin message
 ```javascript
 var Message = require('bitcore-message');
 

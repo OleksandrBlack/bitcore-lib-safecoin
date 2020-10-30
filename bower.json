@@ -1,18 +1,19 @@
 {
-  "name": "bitcore-lib-zelcash",
-  "main": "./bitcore-lib-zelcash.min.js",
-  "version": "0.14.0",
-  "homepage": "http://bitcore.io",
+  "name": "bitcore-lib-safecoin",
+  "main": "./bitcore-lib-safecoin.min.js",
+  "version": "0.15.19",
+  "homepage": "http://safecoin.org",
   "authors": [
     "BitPay, Inc.",
-    "Jack Grigg"
+    "Jack Grigg",
+    "Alexandr Shatovskiy"
   ],
-  "description": "A pure, powerful core for your zelcash project.",
+  "description": "A pure, powerful core for your safecoin project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "zelcash",
+    "safecoin",
     "bitcore",
     "btc",
     "satoshi"
