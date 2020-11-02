@@ -1,7 +1,7 @@
 {
   "name": "bitcore-lib-safecoin",
-  "version": "0.13.19",
   "description": "A pure and powerful JavaScript Safecoin library.",
+  "version": "0.14.0",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -64,6 +64,22 @@
     {
       "name": "Jack Grigg",
       "email": "jack@z.cash"
+    },
+    {
+      "name": "Larry Ludlow",
+      "email": "larry@myhush.org"
+    },
+    {
+      "name": "TheTrunk",
+      "email": "tadeas.kmenta@zel.cash"
+    },
+    {
+      "name": "Simon Liu",
+      "email": "simon@z.cash"
+    },
+    {
+      "name": "Ian Munoz",
+      "email": "ian.org@gmail.com"
     }
   ],
   "keywords": [
